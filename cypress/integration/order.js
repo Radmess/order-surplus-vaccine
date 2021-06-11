@@ -1,8 +1,8 @@
-const NAME = Cypress.env('NAME') || 'Neema Rad';
-const AGE = Cypress.env('AGE') || '31';
-const ADDRESS = Cypress.env('ADDRESS') || 'Njalsgade 58, st th';
-const ZIPCITY = Cypress.env('ZIPCITY') || '2300 København S';
-const PHONE = Cypress.env('PHONE') || '30425288';
+const NAME = Cypress.env('NAME');
+const AGE = Cypress.env('AGE');
+const ADDRESS = Cypress.env('ADDRESS');
+const ZIPCITY = Cypress.env('ZIPCITY');
+const PHONE = Cypress.env('PHONE');
 
 // stop if test fails
 afterEach(function() {
