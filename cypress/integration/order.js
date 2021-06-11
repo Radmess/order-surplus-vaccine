@@ -1,8 +1,8 @@
-const NAME = Cypress.env('NAME') || 'Mattias Siø Fjellvang';
-const AGE = Cypress.env('AGE') || '26';
-const ADDRESS = Cypress.env('ADDRESS') || '';
-const ZIPCITY = Cypress.env('ZIPCITY') || '';
-const PHONE = Cypress.env('PHONE') || '';
+const NAME = Cypress.env('NAME') || 'Neema Rad';
+const AGE = Cypress.env('AGE') || '31';
+const ADDRESS = Cypress.env('ADDRESS') || 'Njalsgade 58, st th';
+const ZIPCITY = Cypress.env('ZIPCITY') || '2300 København S';
+const PHONE = Cypress.env('PHONE') || '30425288';
 
 // stop if test fails
 afterEach(function() {
@@ -13,14 +13,6 @@ afterEach(function() {
 
 // for a total list, check readme.md
 const VACCINATION_PLACES = [
-	{
-		name: 'Ballerup',
-		inputId: 'ch_50088941-106780581'
-	},
-	{
-		name: 'Hillerød',
-		inputId: 'ch_50088941-106780584'
-	},
 	{
 		name: 'Bella Center',
 		inputId: 'ch_50088941-106780582'
